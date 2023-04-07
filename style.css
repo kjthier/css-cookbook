@@ -17,7 +17,7 @@ h1, h2, h3, .text-serif{
 
 /* RECIPES */
 .recipe-container{
-    padding: 65px;
+    margin: 65px;
 }
 
 .img-container{
@@ -25,6 +25,22 @@ h1, h2, h3, .text-serif{
     margin-bottom: 10px;
 }
 
+
+  
+  
+
 .accordion {
     --bs-accordion-active-bg: rgb(232, 232, 232);
+  }
+
+ @media (max-width: 422px) {.recipe-container{
+    margin: 15px 55px;
+    font-size: 12px;
+ }
+}
+
+  @media (min-width: 423px) and (max-width: 650px) {.recipe-container{
+    margin: 35px;
+    font-size: 14px;
+ }
   }
