@@ -13,8 +13,36 @@
 </head>
 
 <header>
-<nav>
-</nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="background-color: #9dd1f6;">
+             <a class="navbar-brand" href="#">
+                <img src="/design-assets/RecipeBook.svg" alt="Logo" width="100" height="50" class="d-inline-block align-text-center">
+                COOKBOOK</a>
+             
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Choose Recipe
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#quiche">Spinach Feta Quiche</a></li>
+                  <li><a class="dropdown-item" href="#orange_cupcake">Orange Cupcakes</a></li>
+                  <li><a class="dropdown-item" href="#summer_salad">Summer Vegetable Salad</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
 </header>
 
 <body>
@@ -26,7 +54,7 @@
     <!-- QUICHE -->
 
     <div class="recipe-container">
-        <h3>Spinach Feta Quiche</h3>
+        <h3 id="quiche">Spinach Feta Quiche</h3><a href="#">up&uarr;</a>
         <div class="mt-4 mb-4">
             <p>Quiche is the perfect picnic food, it's easy to transport and great hot or cold. This spinach and feta quiche has a rich, buttery pastry that encases a fluffy, creamy filling of spinach and feta cheese.</p>
         </div>
@@ -180,7 +208,7 @@
     <!-- CUPCAKES  -->
     
     <div class="recipe-container">
-        <h3>Orange Cupcakes</h3>
+        <h3 id="orange_cupcake">Orange Cupcakes</h3><a href="#">up&uarr;</a>
         <div class="mt-4 mb-4">
             <p>Fresh orange juice and zest in the batter gives these cupcakes a sweet, aromatic orange zing. The unbelievably creamy orange buttercream, both infused and spiked with orange and lime zest are truly the icing on the cake.</p>
         </div>
@@ -331,10 +359,10 @@
     </div>
 
 
-       <!-- CUPCAKES  -->
+       <!-- Summer Salad  -->
     
        <div class="recipe-container">
-        <h3>Summer Vegetable Salad</h3>
+        <h3 id="summer_salad">Summer Vegetable Salad</h3><a href="#">up&uarr;</a>
         <div class="mt-4 mb-4">
             <p>Nothing beats a fresh summer salad. Add crumbled feta cheese or sliced almonds for extra flavor and texture, and top it off with a simple vinaigrette dressing made with olive oil, vinegar, and a pinch of salt and pepper.</p>
         </div>
@@ -486,6 +514,7 @@
 
 
 </body>
-<footer>
+<footer id="footer">
+    <a href="#">up&uarr;</a>
 </footer>
 </html>
