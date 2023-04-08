@@ -121,6 +121,9 @@ a:link {
     text-align: center;
     font-size: larger;
 }
+.nav-item{
+  text-align: right !important;
+}
 
  @media (max-width: 422px) {.recipe-container {
     margin: 22px 18px;
