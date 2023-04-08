@@ -109,6 +109,9 @@ a, h1, h2, h3, .overlay-text, .text-serif{
     margin:auto;
     text-align: center;
 }
+.nav-item{
+  text-align: right !important;
+}
 
  @media (max-width: 422px) {.recipe-container{
     margin: 15px 55px;
