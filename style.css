@@ -12,24 +12,29 @@ AVAILABLE IN 100, 400 (normal), 600
     box-sizing: border-box;
 }
 
-body{
+body, .prev{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-a, h1, h2, h3, .overlay-text, .text-serif{
+h1, h2, h3, .overlay-text, .text-serif{
     font-family: 'Playfair Display', serif;
 }
+
+
+    
+    
 
 /* SOCIAL BUTTONS */
 
 .fa {
     padding: 10px;
-    font-size: 30px;
-    width: 50px;
+    font-size: 100%;
+    width: 35px;
     text-align: center;
     text-decoration: none;
     margin: 2px 2px;
+    border-radius: 50%;
   }
   
   .fa:hover {
@@ -81,7 +86,7 @@ a, h1, h2, h3, .overlay-text, .text-serif{
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .3s ease;
+    transition: .2s ease;
     background-color: rgba(255, 255, 255, 0.7);
   }
   
@@ -103,15 +108,22 @@ a, h1, h2, h3, .overlay-text, .text-serif{
 
 .accordion {
     --bs-accordion-active-bg: rgb(232, 232, 232);
+    
+  }
+
+
+a:link {
+    text-decoration: none;
   }
 
 .prev{
     margin:auto;
     text-align: center;
+    font-size: larger;
 }
 
- @media (max-width: 422px) {.recipe-container{
-    margin: 15px 55px;
+ @media (max-width: 422px) {.recipe-container {
+    margin: 22px 18px;
     font-size: 12px;
  }
 }
@@ -121,3 +133,14 @@ a, h1, h2, h3, .overlay-text, .text-serif{
     font-size: 14px;
  }
   }
+
+  @media (max-width: 422px) {.fa{
+    font-size: 95%;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+ }
+}
+
+
