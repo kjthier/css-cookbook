@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* SERIF FONT */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* GROTESK FONT 
+AVAILABLE IN 100, 400 (normal), 600
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, .text-serif{
+    font-family: 'Playfair Display', serif;
+}
+
+/* RECIPES */
+.recipe-container{
+    margin: 65px;
+}
+
+.img-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+  
+  
+
+.accordion {
+    --bs-accordion-active-bg: rgb(232, 232, 232);
+  }
+
+ @media (max-width: 422px) {.recipe-container{
+    margin: 15px 55px;
+    font-size: 12px;
+ }
+}
+
+  @media (min-width: 423px) and (max-width: 650px) {.recipe-container{
+    margin: 35px;
+    font-size: 14px;
+ }
+  }
