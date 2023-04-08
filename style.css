@@ -55,7 +55,7 @@ h1, h2, h3, .overlay-text, .text-serif{
 
 /* RECIPES */
 .recipe-container{
-    margin: 65px;
+    margin: 75px;
 }
 
 .img-container{
@@ -119,10 +119,20 @@ a:link {
 .prev{
     margin:auto;
     text-align: center;
-    font-size: larger;
+    font-size: medium;
 }
-.nav-item{
+.nav-item, .dropdown-item{
   text-align: right !important;
+}
+
+.dropdown-menu{
+    border: none;
+    background-color: #accae0;
+    font-size:smaller;
+}
+
+a:hover{
+    font-weight: bold;
 }
 
  @media (max-width: 422px) {.recipe-container {
@@ -145,5 +155,6 @@ a:link {
 
  }
 }
+
 
 
