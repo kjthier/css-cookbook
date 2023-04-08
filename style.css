@@ -11,7 +11,7 @@ body{
     font-weight: 400;
 }
 
-h1, h2, h3, .text-serif{
+h1, h2, h3, .overlay-text, .text-serif{
     font-family: 'Playfair Display', serif;
 }
 
@@ -26,8 +26,47 @@ h1, h2, h3, .text-serif{
 }
 
 
+.recipe:hover .recipe-title {
+    display: block;
+  }
   
+  .img-container {
+    position: relative;
+  }
   
+  .image {
+    display: block;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .img-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay-text {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .accordion {
     --bs-accordion-active-bg: rgb(232, 232, 232);
